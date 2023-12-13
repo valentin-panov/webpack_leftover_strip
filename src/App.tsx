@@ -5,7 +5,7 @@ import './App.css';
 function App() {
 
   if (process.env.NODE_ENV !== 'production') {
-    alert('FIND ME IN THE CHUNK ? /// NODE_ENV: ' + process.env.NODE_ENV)
+    alert('FIND ME IN THE CHUNK? /// NODE_ENV: ' + process.env.NODE_ENV)
   }
 
   return (
