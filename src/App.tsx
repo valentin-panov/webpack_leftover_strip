@@ -1,12 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-
-  if (process.env.NODE_ENV !== 'production') {
-    alert('FIND ME IN THE CHUNK? /// NODE_ENV: ' + process.env.NODE_ENV)
+  let btnLink;
+  if (process.env.NODE_ENV !== "production") {
+    alert("FIND ME IN THE CHUNK? /// NODE_ENV: " + process.env.NODE_ENV);
   }
+
+  btnLink =
+    process.env.PROD_MODE === "true"
+      ? "https://mybroadbandaccount.uk/myaccount"
+      : `https://c2b2c.com/myaccount`;
 
   return (
     <div className="App">
@@ -21,7 +26,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React: {btnLink}
         </a>
       </header>
     </div>
