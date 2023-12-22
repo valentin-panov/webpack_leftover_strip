@@ -10,8 +10,8 @@ function App() {
 
   btnLink =
     process.env.PROD_MODE === "true"
-      ? "https://mybroadbandaccount.uk/myaccount"
-      : `https://c2b2c.com/myaccount`;
+      ? "https://production.com/"
+      : `https://development.com/`;
 
   return (
     <div className="App">
@@ -26,7 +26,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React: {btnLink}
+          Learn React and {btnLink}
         </a>
       </header>
     </div>
