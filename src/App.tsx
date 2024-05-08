@@ -9,7 +9,7 @@ function App() {
   }
 
   btnLink =
-    process.env.PROD_MODE === "true"
+    process.env.REACT_APP_PROD_MODE === "true"
       ? "https://production.com/"
       : `https://development.com/`;
 
