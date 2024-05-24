@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webpack_leftover_strip/static/css/main.9a71fbc5.css",
+    "main.js": "/webpack_leftover_strip/static/js/main.a9e0b521.js",
+    "static/js/27.0b6db7aa.chunk.js": "/webpack_leftover_strip/static/js/27.0b6db7aa.chunk.js",
+    "static/media/logo.svg": "/webpack_leftover_strip/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/webpack_leftover_strip/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9a71fbc5.css",
+    "static/js/main.a9e0b521.js"
+  ]
+}
